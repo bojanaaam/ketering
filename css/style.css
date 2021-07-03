@@ -1,0 +1,777 @@
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+.nav-container {
+    top: 0;
+    margin-top: 0.1px;
+    background-color: white;
+    height: 6rem;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    box-shadow: 0px 3px 6px #0000000d;
+}
+.logo {
+    height: 9rem;
+    width: 9rem;
+    left: 5vw;
+    position: absolute;
+    background: url(../img/logo.jpg);
+    background-size: auto 100%;
+    border: solid white 0.3em;
+    border-radius: 100%;
+}
+.main-nav{
+    float: right;
+    margin-top: 36px;
+}
+li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: left;
+    margin-right: 12px;
+}
+.nav-items li a{
+    text-decoration: none;
+}
+.nav-items li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    color: #000;
+    font-size: 20px;
+}
+.cover-img {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/brooke-lark-M4E7X3z80PQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    min-height: 100vh;
+    /* opacity: 0.9; */
+}
+#cover-tekst{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cover-tekst-slogan{
+    text-align: left;
+    
+    display: table-cell;
+}
+
+#cover-slogan h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 240px;
+    padding-left: 100px;
+}
+.btn-okvir{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 0;
+}
+.btn-stil{
+    color: #fff;
+    padding: 7px 0px;
+    line-height: 20px;
+    width: 155px;
+    height: 55px;
+    letter-spacing: 1px;
+}
+.btn-stil:hover{
+    background-color: #fff;
+    color: #2f2e2e;
+}
+#cover-btn{
+    padding-top: 40px;
+    padding-left: 100px;
+}
+/*plavi section*/
+.cover-blue {
+    background-color: rgb(55, 89, 141);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 66vh;
+}
+#cover-info{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cover-info-slogan{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#cover-info-text h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: inherit;
+    margin-top: 120px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#cover-info-text h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-transform: inherit;
+    margin-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.btn-okvir{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 0;
+}
+.btn-stl{
+    color: #fff;
+    padding: 15px 0px;
+    line-height: 20px;
+    width: 155px;
+    height: 55px;
+    letter-spacing: 1px;
+}
+.btn-stl:hover{
+    background-color: #fff;
+    color: #2f2e2e;
+}
+#info-btn{
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+/*o nama*/
+#content-wrapper{
+    padding-top: 6.6vmax;
+    padding-right: 4vw;
+    padding-left: 4vw;
+}
+#about{
+    background: #fff;
+    min-height: 100vh;
+}
+.pola .left{
+    display: inline;
+    float: left;
+    width: 50%;
+}
+.about-content{
+    overflow: hidden;
+}
+.pola .left .about-okvir {
+    display: inline;
+    align-items: left;
+}
+.about-okvir{
+    width: 450px;
+}
+.pola .about-content .text {
+    padding: 108px 0px;
+}
+#about.pola .about-content p.about-naslov{
+    text-transform: none;
+    font-weight: 500;
+}
+.ufont{
+    font-size: 50px;
+}
+.pola .about-content p.about-naslov {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    color: #000;
+}
+.pola .about-content .about-desc {
+    text-align: center;
+    width: 60%;
+    min-width: 280px;
+    margin: auto;
+    color: #000;
+    line-height: 1.66em;
+    font-size: 1.1em;
+    padding-top: 40px;
+}
+.about-btn{
+    padding-top: 100px;
+}
+.about-btn.black a {
+    color: #000;
+    border-color: #000;
+}
+.about-btn.black a:hover{
+    color: #fff;
+}
+.about-btn a {
+    display: block;
+    margin: auto;
+    width: 195px;
+    height: 55px;
+    border: 2px solid #fff;
+    line-height: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 0;
+}
+.btn-about:hover{
+    background-color: #000;
+}
+.pola .left {
+    display: inline;
+    float: left;
+    width: 50%;
+}
+.pola .left img {
+    position: absolute;
+    display: block;
+    width: 84%;
+    left: 8%;
+    top: 50%;
+}
+#about-content-right{
+    background-image: url(../img/edgar-castrejon-1CsaVdwfIew-unsplash.jpg);
+    height: 640px;
+    float: right;
+    width: 50%; 
+}
+.img-paralax{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+/*slika*/
+.cover-slika {
+    background-image: url(../img/rumman-amin-nKs-oXRGGEg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+/*footer*/
+footer{
+    background-color: rgb(55, 89, 141);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 3rem;
+    color: rgb(155, 155, 155);
+}
+.footer-content p{
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 17px;
+    color: rgb(155, 155, 155);
+}
+.footer-socials li .fb{
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+.footer-socials li .insta{
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+.footer-socials li .tw{
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+.bottom{
+    text-align: center;
+    background: rgb(55, 89, 141);
+}
+.bottom p{
+    color: rgb(155, 155, 155);
+}
+/*last section*/
+#content-wrapper{
+    padding-top: 6.6vmax;
+    padding-right: 4vw;
+    padding-left: 4vw;
+}
+#meni{
+    background: #fff;
+    min-height: 100vh;
+}
+.pola .right{
+    display: inline;
+    float: right;
+    width: 50%;
+}
+.meni-content{
+    overflow: hidden;
+}
+.pola .right .meni-okvir {
+    display: inline;
+    align-items: right;
+}
+.meni-okvir{
+    width: 450px;
+}
+.pola .meni-content .text {
+    padding: 108px 0px;
+}
+#meni.pola .meni-content p.meni-naslov{
+    text-transform: none;
+    font-weight: 500;
+}
+.ufont{
+    font-size: 50px;
+}
+.pola .meni-content p.meni-naslov {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    color: #000;
+}
+.pola .meni-content .meni-desc {
+    text-align: center;
+    width: 60%;
+    min-width: 280px;
+    margin: auto;
+    color: #000;
+    line-height: 1.66em;
+    font-size: 1.1em;
+    padding-top: 40px;
+}
+.meni-btn{
+    padding-top: 100px;
+}
+.meni-btn.black a {
+    color: #000;
+    border-color: #000;
+}
+.meni-btn.black a:hover{
+    color: #fff;
+}
+.meni-btn a {
+    display: block;
+    margin: auto;
+    width: 195px;
+    height: 55px;
+    border: 2px solid #fff;
+    line-height: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 0;
+}
+.btn-meni:hover{
+    background-color: #000;
+}
+.pola .right {
+    display: inline;
+    float: left;
+    width: 50%;
+}
+.pola .right img {
+    position: absolute;
+    display: block;
+    width: 84%;
+    left: 8%;
+    top: 50%;
+}
+#meni-content-left{
+    background-image: url(../img/khloe-arledge-Xu7W4u5lG9g-unsplash.jpg);
+    height: 640px;
+    float: left;
+    width: 50%; 
+}
+.img-paralax{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+/*nasa prica posebna*/
+.np-slika {
+    background-image: url(../img/alice-donovan-rouse-9MzCd76xLGk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.cover-np {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 66vh;
+}
+#cover-info{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cover-info-slogan-np{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+#cover-info-slogan-np{
+    padding-top: 6.6vmax;
+    padding-bottom: 6.6vmax;
+}
+#cover-info-text-np{
+    width: 75%;
+    margin-left: 170px;
+}
+#cover-info-text-np h2{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: inherit;
+    margin-top: 170px;
+    padding-left: 100px;
+}
+#cover-info-text-np h3{
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-transform: inherit;
+    margin-top: 120px;
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+/*cenovnik posebna*/
+.cen-img {
+    background-image: url(../img/theme-photos-qSoh9dju8rg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    min-height: 66vh;
+    /* opacity: 0.9; */
+}
+#cen-tekst{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cen-tekst-slogan{
+    text-align: center;
+    
+    display: table-cell;
+}
+
+#cen-slogan h1{
+    color: #fff;
+    font-size: 85px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 240px;
+    padding-left: 100px;
+}
+.cen-wrapper{
+    padding-top: 6.6vmax;
+    padding-bottom: 6.6vmax;
+    padding-left: 6.6vmax;
+    padding-right: 6.6vmax;
+}
+.cen-section {
+    border: dotted 0.1em rgb(148, 185, 139);
+    padding: 1em;
+    margin: 1.2em auto;
+}
+h2.cen-title{
+    font-weight: 600;
+}
+.cen-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.cen-row{
+    display: flex;
+    align-items: baseline;
+}
+.cen-item {
+    padding-right: 2px;
+    text-align: left;
+    max-width: 60%;
+    min-height: 1.8rem;
+}
+.dots {
+    border-bottom: dotted 0.1em rgb(224, 224, 224);
+    width: auto;
+    z-index: -1;
+    flex-grow: 1;
+}
+.cena {
+    margin-right: 0.5em;
+    margin-left: auto;
+}
+/*kontakt posebna*/
+.kontakt-slika {
+    background-image: url(../img/mink-mingle-qZ5lPCPvdXE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 66vh;
+}
+.cover-kontakt {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 66vh;
+}
+#cover-info{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cover-info-slogan-kont{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+#cover-info-slogan-kont{
+    padding-top: 6.6vmax;
+    padding-bottom: 6.6vmax;
+}
+#cover-info-text-kont{
+    width: 75%;
+    margin-left: 170px;
+}
+#cover-info-text-kont h2{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: inherit;
+    margin-top: 7px;
+    padding-left: 100px;
+}
+#cover-info-text-kont h3{
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-transform: inherit;
+    margin-top: 100px;
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+/*ketering posebna*/
+.card img{
+    padding: 70px 20px;
+}
+.card{
+    border-color: #fff;
+    margin-top: 70px;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(255, 255, 255, 0.384);
+    color: #000;
+}
+.layer h3{
+    margin-top: 350px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.porucite {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 36vh;
+}
+#porucite-info{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#porucite-info-slogan{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#cover-info-text p{
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: inherit;
+    margin-top: 170px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.poruci-okvir{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 0;
+}
+.btn-poruci{
+    color: #000;
+    padding: 15px 0px;
+    line-height: 20px;
+    width: 155px;
+    height: 55px;
+    letter-spacing: 1px;
+}
+.btn-poruci:hover{
+    background-color: #000;
+    color: #fff;
+}
+#poruci-btn{
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+/*events*/
+.ev-img {
+    background-image: url(../img/chuttersnap-aEnH4hJ_Mrs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    min-height: 66vh;
+    /* opacity: 0.9; */
+}
+#ev-tekst{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.desc-container {
+    display: flex;
+    justify-content: left;
+}
+.desc-left{
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.align-left{
+    text-align: left;
+}
+.large-text{
+    font-size: 1.7em;
+    font-weight: 700;
+}
+.borders {
+    border-bottom: solid 0.2em #d7bc72;
+    border-top: solid 0.2em #d7bc72;
+    padding: 1em 0;
+    line-height: 1.5em;
+    overflow: auto;
+    margin-bottom: 0;
+}
+.small-text {
+    font-size: 1rem;
+    display: inline-block;
+}
+.bold{
+    font-weight: 700;
+}
+#ev-content-right{
+    background-image: url(../img/juliana-barquero-7WBOKCPKab8-unsplash.jpg);
+    height: 350px;
+    float: right;
+    width: 50%; 
+    margin-top: 85px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+#ev-content-2{
+    background-image: url(../img/kalei-peek-M9WjtA3Z9uc-unsplash.jpg);
+    height: 350px;
+    float: right;
+    width: 50%; 
+    margin-top: 85px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.img-ev{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+#ev-tekst{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#ev-tekst-slogan{
+    text-align: center;
+    display: table-cell;
+}
+
+#ev-slogan h1{
+    color: #fff;
+    font-size: 85px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 240px;
+}
